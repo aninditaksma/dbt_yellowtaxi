@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: taxi_tripdata
+    description: 'Database of NYC Taxi trip'
+    database: dbt_yellowtaxi
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
